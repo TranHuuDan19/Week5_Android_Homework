@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/iv_image"
-        android:layout_width="92dp"
-        android:layout_height="92dp"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
         android:layout_margin="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +30,7 @@
     <TextView
         android:id="@+id/tv_address"
         android:layout_width="273dp"
-        android:layout_height="29dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="TextView"
         android:textColor="@color/black"
@@ -42,12 +42,4 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_name"
         app:layout_constraintVertical_bias="0.0" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/favBtn"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="@drawable/ic_baseline_favorite_shadow_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
 </androidx.constraintlayout.widget.ConstraintLayout>
